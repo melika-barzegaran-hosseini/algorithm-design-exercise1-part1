@@ -1,5 +1,10 @@
 package part1;
 
+/**
+ * A merge sort implementation which sorts integer numbers in O(nlogn) in average case.
+ *
+ * @author melika barzegaran hosseini
+ */
 public class MergeSort extends Sort
 {
     private int[] temp;

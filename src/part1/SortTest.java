@@ -12,6 +12,11 @@ import java.util.Arrays;
 import java.util.Calendar;
 import java.util.Comparator;
 
+/**
+ * A collection of utilities for testing different sorting algorithms.
+ *
+ * @author melika barzegaran hosseini
+ */
 public class SortTest
 {
     private static final String TESTCASE_FOLDER = "testcases";

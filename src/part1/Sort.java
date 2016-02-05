@@ -4,6 +4,11 @@ import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
+/**
+ * Represents a base implementation for different sorting algorithms.
+ *
+ * @author melika barzegaran hosseini
+ */
 public abstract class Sort
 {
     protected int[] values;

@@ -1,5 +1,10 @@
 package part1;
 
+/**
+ * An insertion sort implementation which sorts integer numbers in O(n^2) in average case.
+ *
+ * @author melika barzegaran hosseini
+ */
 public class InsertionSort extends Sort
 {
     @Override

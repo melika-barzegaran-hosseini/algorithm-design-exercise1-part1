@@ -1,5 +1,10 @@
 package part1;
 
+/**
+ * A heap sort implementation which sorts integer numbers in O(nlogn) in average case.
+ *
+ * @author melika barzegaran hosseini
+ */
 public class HeapSort extends Sort
 {
     @Override

@@ -1,5 +1,10 @@
 package part1;
 
+/**
+ * A quick sort implementation which sorts integer numbers in O(nlogn) in average case.
+ *
+ * @author melika barzegaran hosseini
+ */
 public class QuickSort extends Sort
 {
     @Override
