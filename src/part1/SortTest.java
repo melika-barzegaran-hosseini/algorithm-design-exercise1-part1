@@ -147,11 +147,12 @@ public class SortTest
     {
         OUTPUT_FOLDER = "output_" + getTime();
 
-        String[] names = {"insertion sort", "quick sort"};
+        String[] names = {"insertion sort", "quick sort", "merge sort"};
 
         ArrayList<ArrayList<Long>> sortTimes = new ArrayList<>();
         sortTimes.add(SortTest.test("insertion-sort", new InsertionSort()));
         sortTimes.add(SortTest.test("quick-sort", new QuickSort()));
+        sortTimes.add(SortTest.test("merge-sort", new MergeSort()));
 
         SortTest.test(names, sortTimes);
     }
